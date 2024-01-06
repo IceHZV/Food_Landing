@@ -1,0 +1,620 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth; /* Page scroll to id */
+}
+
+/* Header */
+/* Head Logo+Nav */
+.food_header {
+  width: 1440px;
+  background-image: url(/img/basckground/headfood.png),
+    linear-gradient(
+      100deg,
+      #ffe001 1070px,
+      #ffe001 886px,
+      #e8e6a9 1051px,
+      #e8e6a9 887px
+    );
+}
+.food_header_lgnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+.food_headre_lgnav_logo {
+  padding: 42px 0px 0px 57px;
+}
+.food_header_lgnav_nbnav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.nbnav_numb {
+  padding: 41px 55px 24px 0px;
+}
+.nbnav_numb2 {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+.nbnav_numb p {
+  font-size: 17px;
+  font-weight: 700;
+}
+.nbnav_numb h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.nbnav_numb_phone img {
+  padding-left: 16px;
+}
+
+.nbnav_nav {
+  font-size: 17px;
+  font-weight: 700;
+}
+.nbnav_nav a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 61px;
+}
+.nbnav_nav a:hover {
+  color: rgb(44, 43, 43);
+  text-shadow: 0px 0px 3px #000000;
+}
+/* Head Logo+Nav end*/
+/* Head Title */
+.food_header_big {
+  display: flex;
+  flex-direction: column;
+}
+.food_header_big2 {
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 87px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 158px;
+}
+.food_header_big_title1 {
+  font-family: "Gabelisa";
+  font-weight: 400;
+  font-size: 58px;
+  padding-bottom: 21px;
+}
+.food_header_big_title2 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-size: 90px;
+  text-transform: uppercase;
+  padding-bottom: 31px;
+}
+.food_header_big_title3 {
+  font-weight: 700;
+  font-size: 27px;
+  border-bottom: 2px solid #ccb301;
+  text-transform: uppercase;
+  padding-bottom: 42px;
+}
+.food_header_big_title4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+.food_header_big_title4_1 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.food_header_big_title4_2 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-size: 57px;
+  padding-left: 16px;
+}
+.food_header_big_buttom {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: 800;
+  font-size: 21px;
+  width: 225px;
+  height: 56px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.food_header_big_buttom:hover {
+  opacity: 0.8;
+  box-shadow: 0px 0px 5px 2px black;
+  transition: 0.2;
+}
+.food_header_big_buttom:active {
+  position: relative;
+  color: rgb(17, 15, 15);
+  top: 1px;
+}
+
+.food_header_big_buttom a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 38px;
+}
+/* Head Title end */
+/* Headre end */
+/* Content1 */
+.food_content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(/img/basckground/pastadown.png) left top no-repeat,
+    linear-gradient(
+      transparent 368px,
+      #e8e6a9 369px,
+      #e8e6a9 508px,
+      transparent 509px
+    );
+}
+.food_content1_title {
+  width: 1060px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 88px;
+}
+.food_content1_title h3 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-size: 50px;
+  padding-bottom: 31px;
+  text-transform: uppercase;
+}
+.food_content1_title p {
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom: 54px;
+  line-height: 1.5;
+}
+
+.food_content1_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  position: relative;
+  text-align: center;
+  padding-bottom: 139px;
+}
+.menu:not(:nth-child(2)) img {
+  border-radius: 50%;
+  box-shadow: 15px 25px 38px 0px rgba(0, 0, 0, 0.38);
+}
+.menu:nth-child(2):after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  top: 9px;
+  left: -1px;
+  width: 368px;
+  height: 335px;
+  box-shadow: 15px 25px 38px 0px rgba(0, 0, 0, 0.38);
+}
+.menu:not(:last-child) img {
+  margin-right: 110px;
+}
+.menu h3 {
+  padding-top: 47px;
+  padding-bottom: 23px;
+  width: 350px;
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.menu p {
+  font-weight: 400;
+  font-size: 17px;
+  width: 350px;
+  padding-bottom: 61px;
+  line-height: 1.4;
+}
+
+.menu_but {
+  width: 350px;
+}
+.menu_but a {
+  background-color: #ffe001;
+  padding: 24px 40px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 17px;
+}
+.menu_but a:hover {
+  box-shadow: 0px 0px 7px 0px black;
+  opacity: 0.9;
+  background-color: #ffd000;
+}
+.menu_but a:active {
+  position: relative;
+  top: 1px;
+  box-shadow: 0px 0px 17px 0px black;
+}
+/* Content1 End */
+/* Content2 */
+.food_content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.food_content2_title {
+  width: 1025px;
+  text-align: center;
+}
+.food_content2_title h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.food_content2_title h2 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: uppercase;
+  padding-bottom: 29px;
+}
+.food_content2_title p {
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* Gallery */
+.food_content2_gallery {
+  padding-top: 70px;
+  width: 1440px;
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery {
+  width: 1440px;
+  display: flex;
+}
+.gallery_foto {
+  height: 554px;
+}
+.gallery_foto label {
+  margin: 0px 480px 0px 0px;
+}
+.radio1 {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 0px 0 0 0px;
+}
+.radio1 + label {
+  position: relative;
+  padding: 0 0 0 25px;
+  cursor: pointer;
+}
+.radio1 + label:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 480px;
+  height: 350px;
+  background-image: url(/img/gallery/gallerypast1.jpg);
+  background-size: cover;
+  cursor: pointer;
+  filter: brightness(40%);
+}
+.radio2 + label:before {
+  background-image: url(/img/gallery/gallerypizza.jpg);
+}
+.radio3 + label:before {
+  background-image: url(/img/gallery/gallerypast3.jpg);
+}
+.radio1 + label:after {
+  content: "";
+  position: absolute;
+  top: 404px;
+  left: 690px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d5d5d5;
+  z-index: 5;
+}
+.radio2 + label:after {
+  left: 240px;
+}
+.radio3 + label:after {
+  left: -210px;
+}
+
+.radio1:checked + label:after {
+  content: "";
+  position: absolute;
+  top: 404px;
+  left: 690px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fadc01;
+  z-index: 5;
+}
+.radio2:checked + label:after {
+  left: 240px;
+}
+.radio3:checked + label:after {
+  left: -210px;
+}
+.radio1:checked + label:before {
+  top: -29px;
+  width: 695px;
+  height: 408px;
+  z-index: 1;
+  box-shadow: 10px 17px 54px 0px #000000c7;
+  filter: brightness(100%);
+}
+.radio2:checked + label:before {
+  left: -100px;
+}
+
+.radio3:checked + label:before {
+  left: -200px;
+}
+
+/* Gallery end */
+
+/* Story block */
+.food_content2_story {
+  margin-bottom: 82px;
+  width: 1234px;
+  height: 419px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.food_content2_story a {
+  text-decoration: none;
+}
+.food_content2_story p {
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.food_content2_story h3 {
+  font-weight: 700;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.storyleft {
+  background-image: url(/img/story/storysea2.jpg);
+  background-size: cover;
+  width: 597px;
+  height: 420px;
+}
+.storyleft p {
+  padding: 44px 0px 0px 45px;
+}
+.storyleft h3 {
+  padding: 15px 0px 182px 45px;
+  line-height: 1.2;
+}
+.storyleft:hover,
+.storyright_small1:hover,
+.storyright_small2:hover {
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+}
+.storyright {
+  width: 597px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.storyright p {
+  padding: 30px 0px 0px 29px;
+}
+.storyright h3 {
+  font-size: 33px;
+  line-height: 1.2;
+  padding: 0px 0px 55px 29px;
+}
+.storyright_small1,
+.storyright_small2 {
+  width: 595px;
+  height: 192px;
+}
+.storyright_small1 {
+  background-image: url(/img/story/storyragu.jpg);
+  background-size: cover;
+  background-position: 100% 50%;
+}
+.storyright_small2 {
+  background-image: url(/img/story/storyovo.jpg);
+  background-size: cover;
+}
+/* Story block end */
+/* Content2 end */
+
+/* Footer */
+.food_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.food_footer_title {
+}
+.food_footer_title p {
+  padding: 10px 0px 23px 0px;
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.food_footer_title h3 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-bottom: 89px;
+}
+.food_footer_form {
+  width: 785px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 98px;
+}
+.food_footer_form input,
+button {
+  outline: none;
+  min-width: 377px;
+  width: 377px;
+  height: 63px;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+}
+.food_footer_form button {
+  font-weight: 700;
+  font-size: 21px;
+  border: none;
+  background-color: #ffe001;
+}
+.food_footer_form button:hover {
+  box-shadow: 0px 0px 3px 0px #000000;
+  background-color: #fbff01;
+}
+.food_footer_form button:active {
+  position: relative;
+  top: 1px;
+}
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+.food_footer_bottom {
+  position: relative;
+  width: 100%;
+  height: 582px;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.food_footer_bottom:before {
+  width: 100%;
+  height: 582px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  content: "";
+  filter: brightness(40%);
+  background-image: url(/img/story/storyovo.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+.bottom_left {
+  margin: 65px 0px 0px 102px;
+  text-align: left;
+  width: 540px;
+}
+.bottom_left p,
+h6 {
+  font-weight: 400;
+  font-size: 17px;
+}
+.bottom_left p {
+  padding: 70px 0px 172px 0px;
+  line-height: 1.5;
+}
+.bottom_right {
+}
+.bottom_right_cont {
+  padding: 229px 170px 161px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+.bottom_right_cont p,
+a {
+  font-weight: 500;
+  font-size: 17;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.bottom_right_cont p:hover {
+  color: #ffe001;
+}
+.bottom_right_cont a {
+  display: flex;
+  align-items: center;
+  padding-bottom: 17px;
+}
+.bottom_right_cont p {
+  padding-left: 35px;
+}
+.bottom_right_soc {
+  display: flex;
+  padding-left: 297px;
+}
+.bottom_right_soc a {
+  padding: 0px 12px 0px 0px;
+}
+.bottom_right_soc img:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 2px #ffe001;
+}
+.bottom_right_soc img:active {
+  position: relative;
+  top: 3px;
+}
+/* Footer end */
