@@ -32,7 +32,7 @@ html {
 /* Head Logo+Nav */
 .food_header {
   width: 1440px;
-  background-image: url(/img/basckground/headfood.png),
+  background-image: url(img/basckground/headfood.png),
     linear-gradient(
       100deg,
       #ffe001 1070px,
@@ -179,7 +179,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(/img/basckground/pastadown.png) left top no-repeat,
+  background: url(img/basckground/pastadown.png) left top no-repeat,
     linear-gradient(
       transparent 368px,
       #e8e6a9 369px,
@@ -340,16 +340,16 @@ html {
   left: 0px;
   width: 480px;
   height: 350px;
-  background-image: url(/img/gallery/gallerypast1.jpg);
+  background-image: url(img/gallery/gallerypast1.jpg);
   background-size: cover;
   cursor: pointer;
   filter: brightness(40%);
 }
 .radio2 + label:before {
-  background-image: url(/img/gallery/gallerypizza.jpg);
+  background-image: url(img/gallery/gallerypizza.jpg);
 }
 .radio3 + label:before {
-  background-image: url(/img/gallery/gallerypast3.jpg);
+  background-image: url(img/gallery/gallerypast3.jpg);
 }
 .radio1 + label:after {
   content: "";
@@ -429,7 +429,7 @@ html {
   color: rgb(255, 255, 255);
 }
 .storyleft {
-  background-image: url(/img/story/storysea2.jpg);
+  background-image: url(img/story/storysea2.jpg);
   background-size: cover;
   width: 597px;
   height: 420px;
@@ -467,12 +467,12 @@ html {
   height: 192px;
 }
 .storyright_small1 {
-  background-image: url(/img/story/storyragu.jpg);
+  background-image: url(img/story/storyragu.jpg);
   background-size: cover;
   background-position: 100% 50%;
 }
 .storyright_small2 {
-  background-image: url(/img/story/storyovo.jpg);
+  background-image: url(img/story/storyovo.jpg);
   background-size: cover;
 }
 /* Story block end */
@@ -557,7 +557,7 @@ input:valid:not(:placeholder-shown) {
   position: absolute;
   content: "";
   filter: brightness(40%);
-  background-image: url(/img/story/storyovo.jpg);
+  background-image: url(img/story/storyovo.jpg);
   background-size: cover;
   z-index: -1;
 }
