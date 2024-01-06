@@ -1,2 +1,5 @@
-# Food_Landing
- 1 month 3 weeks of learning HTML/CSS
+https://icehzv.github.io/Food_Landing/ - Food Landing
+
+- Bem class naming
+- Images are organized into folders
+- Adaptive NO
